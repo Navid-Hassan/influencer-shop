@@ -1,0 +1,19 @@
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 500px;
+    background-color:#AAAAAA ;
+    text-align: center;
+    padding: 20px 0 80px;
+}
+.footer-header,.footer-p{
+    color: white;
+}
+.footer-icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
