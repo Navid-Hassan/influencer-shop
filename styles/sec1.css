@@ -58,3 +58,23 @@
     justify-items: center;
     gap: 20px;
 }
+
+
+/* for mobile */
+@media screen and (max-width : 576px){
+    .collection{
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+    }
+    .sec1{
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .collection-header{
+        text-align: start;
+    }
+    .item{
+        width: 90%;
+    }
+}
